@@ -1,0 +1,107 @@
+#container{
+    width: 100%;
+    height: 100%;
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 0;
+}
+#one{
+    width: 100%;
+    height: 160px;
+    background-color: rgb(245, 185, 19);
+    display: flex;
+    align-content: space-between;
+    justify-content: center;
+}
+.item {
+    background-color:rgb(0, 132, 255);
+    height: 80px;
+    flex-grow: 1;
+    margin: 40px 40px 40px 20px;
+    display: flex;
+}
+.one1 {
+    flex-grow: 2;
+    background-color:rgb(0, 81, 255);
+    margin-bottom: 10px;
+    display: flex;
+    margin-right: 20px ;
+    margin-left: 40px;
+    }
+
+#two{
+    width: 100%;
+    height: 320px;
+    background-color: grey;
+    display: plex;
+    align-content: left;
+    justify-content: left;
+    flex-direction: 
+
+}
+.two1{
+    width: 50%;
+    height: 320px;
+    flex-grow: 1;
+    background-color:grey;
+    display: flex;
+    flex-direction: column;
+}
+.two1-1{
+    width: 75%;
+    height:40px ;
+    margin: 80px 40px 40px 60px;
+    background-color:rgb(0, 81, 255);
+
+}
+.two1-2{
+    width: 75%;
+    height:80px ;
+    margin: 40px 40px 40px 60px;
+    background-color:rgb(0, 81, 255);
+}
+
+.two2-1{
+    width: 20%;
+    height: 240px;
+    background-color:rgb(0, 81, 255);
+    display: flex;
+    margin:-280px 8px 400px 660px ;
+}
+
+.two2-2{
+    width: 20%;
+    height: 240px;
+    background-color:rgb(0, 81, 255);
+    display: flex;
+    margin: -640px 80px 0px 1000px;
+}
+#three{
+    width: 100%;
+    height: 80px;
+    background-color:rgb(0, 81, 255);
+    ;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+}
+.div2-4{
+    width: 100%;
+    height: 40px;
+    background-color: white;
+}
+
+.duongke{
+    width: 380px; 
+    size: 100px;
+    color:white;
+    margin: 40px 20px 20px 40px;
+}
+.boderdiv{
+    border-color:white;
+    border-width: thin;
+    border-style: solid;
+}
