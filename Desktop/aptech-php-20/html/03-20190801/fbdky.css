@@ -1,0 +1,196 @@
+#one{
+    background-color:#4869ac;
+    ;
+    width: 100%;
+    height: 15%;
+    display: flex;
+    color: white;
+    border-color: rgb(78, 78, 204);
+    border-width: 1px;
+}
+.one2-3{
+    margin: 10px 10px 0px 0px;
+    padding-right: 30px ;
+    width: 150px;
+}   
+input{
+    margin: 10px 10px 0px 0px;
+    border-width: thin;
+    border-color: rgb(112, 110, 110);
+    height: 20px;
+}
+.one4{
+    margin: 38px 20px 0px 0px;
+}
+#two{
+    background-color: #e9ebee;
+    width: 100%;
+    height: 60px;
+    display: flex;
+}
+#three{
+    background-color: #e9ebee;
+    width: 100%;
+    height: 40px;
+    display: flex;
+}
+#four{
+    background-color: #e9ebee;
+    width: 100%;
+    height: 60%;
+    display: flex;
+}
+.four1{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    margin-right: 0px;
+    padding-left: 0px;
+    font-size: 20px;
+    font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif !important;
+    color: rgb(39, 39, 39);
+}
+.four1-1{
+    justify-content: left;
+    align-items: left;
+    margin-right: 0px;
+    padding-left: 210px;
+    font-size: 20px;
+    font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif !important;
+    color: rgb(39, 39, 39);
+}
+five{
+    background-color: white;
+    width: 100%;
+    height: 15%;
+    display: flex;
+}
+h1{
+    font-size: 46px;
+    font: arial;
+    text-align: center;
+    margin: 15px 400px 20px 180px;
+    font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif !important;
+}
+.mauchu{
+    color:rgb(245, 234, 234);
+    background-color: #355dac;
+    font: Arial;
+    border-color: rgb(71, 71, 206);
+    border-width: 1px;
+}
+button{
+    height: 25px;
+    width: 60px;
+}
+h2{
+    text-align: top;
+    margin-right: 130px;
+    padding-left: 190px;
+    margin-top: 12px;
+    font-size: 38px;
+    font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif !important;
+    color: rgb(54, 54, 54);
+}
+h3{
+    text-align: top;
+    margin-right: 40px;
+    padding-left: 190px;
+    margin-top: 5px;
+    font-size: 20px;
+    font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif !important;
+    color: rgb(109, 108, 108);
+}
+table{
+    width: 40%;
+    height: 100px;
+    text-align: center;
+    margin-right: 35px;
+    padding-left:  180px;
+    font-size: 20px;
+    font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif !important;
+    color: rgb(129, 45, 129);
+}
+td {
+    background-color: rgb(243, 241, 237);
+    border-block-color: blue;
+}
+img{
+    width: 120px;
+    height: 150px;
+    align-self:  center;
+}
+.inputtaotk{
+    width: 200px;
+    height: 30px;
+    border-color: #bdc7d8;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif !important;
+    color: rgb(39, 39, 39);
+}
+.tkwidth{
+    width: 415px; 
+}
+h4{ 
+    margin-top: 12px;
+    margin-bottom: 8px;
+    font-size: 20px;
+    font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif !important;
+    color: rgb(124, 123, 123);
+}
+.note{
+    margin-right: 180px;
+    font: 'Freight Sans Bold';
+    font-size: 12px;
+}
+.select{
+    width: 80px;
+    height: 30px;
+    text-align: left;
+    font-size: 14px;
+    margin-bottom: 2px;
+    font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif !important;
+    color: rgb(54, 54, 54);
+
+}
+.button2{
+    width: 170px;
+    height: 38px;
+    font: 'Freight Sans Bold';
+    font-size: 26px;
+    border-width: thin;
+    background-color: #69a74e;
+    background-size: initial;
+    border-radius: 5px;
+    color: whitesmoke;
+    border-color: #2c5115;
+    box-shadow: inset 0 1px 1px #a4e388;
+}
+h5{
+    font-size: 15px;
+    color: rgb(95, 90, 90);
+    margin-top: 10px;
+margin-bottom: 20px;
+} 
+ul {
+    list-style-type: none; 
+    overflow: hidden; 
+}
+li { 
+    float: left;
+    margin: 2px 60px 2px 60px;
+    text-align: center;
+}
+li a {
+    display: block;
+    color:rgb(49, 38, 150); 
+    text-align: center; 
+    padding: 10px;
+    text-decoration: none; 
+}
+li a:hover {
+    background-color:rgb(225, 198, 250); 
+    height: 10px;
+}
+
