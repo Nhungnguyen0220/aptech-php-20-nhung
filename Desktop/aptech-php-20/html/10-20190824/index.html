@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <!-- <h1 id="demo" style="color:blueviolet">NGUYEN THI NHUNG</h1>
+        <button onclick="doiMauChu()">DOI MAU CHU</button> <BR> -->
+            
+        <button onclick="lightOn()">On light</button>
+        <img id="imgNhungOke" src="pic_bulboff.gif" alt="keke" style="width:100px">
+        <button onclick="lightOff()">Off light</button> 
+        <br>
+        <br>
+        <br>
+        <br>
+
+
+             
+        <img id="imgNhung" src="pic_bulboff.gif" alt="keke" style="width:100px">
+        <button onclick="lightControl()">On-Off light</button> 
+
+        <Script>
+            // document.getElementById('demo').innerHTML = 'Hello PHP 20 Keke';
+            //document.getElementById('demo').style.color = 'blue';
+            // var ten='nhung';
+            // console.log(ten);
+            // var a=10;
+            // var b="7";
+            // var c=a+b;
+            // var d= 200;
+            // var e= a+d;
+            // var f='nhung';
+            // var g=a + f;
+           // document.getElementById('demo').innerHTML = c;
+            //document.getElementById('demo').innerHTML = e;
+            // document.getElementById('demo').innerHTML =a +d +f;
+
+            // function doiMauChu(){
+            //     document.getElementById('demo').style.color = 'blue';
+            
+
+            // }
+
+           
+             function lightOn() {
+               document.getElementById('imgNhungOke').src = 'pic_bulbon.gif';
+             }
+
+        
+             function lightOff() {
+             document.getElementById('imgNhungOke').src = 'pic_bulboff.gif';
+
+             }
+             var x=0;
+
+
+             function lightControl() { ++x; if(x%2==1){
+                 document.getElementById('imgNhung').src = 'pic_bulbon.gif';
+
+             }
+             else {
+                 document.getElementById('imgNhung').src = 'pic_bulboff.gif';
+                 x=0;
+             }
+             }
+            
+            
+        </Script>
+    </body>
+</html>
