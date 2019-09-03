@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    </head>
+    <body>
+         
+
+        <img id="imgNhung" src="pic_bulboff.gif" alt="keke" style="width:100px">
+       <button id= "bulb-btn" >On-Off light</button>
+
+        <Script> 
+      $("#bulb-btn").on("click", function() {
+     
+      if ($("img").attr("src").includes("bulboff")) {
+        $("#imgNhung").attr("src", "pic_bulbon.gif") ;
+      } else {
+        $("#imgNhung").attr("src","pic_bulboff.gif");
+      }
+    });   
+             
+        </Script>
+    </body>
+</html>
