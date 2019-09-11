@@ -11,11 +11,12 @@ function createWeb() {
         document.body.appendChild(divContainer);
         divContainer.classList.add()
         divContainer.setAttribute('class','container bg-light');
-        var divRow = document.createElement('div');
-        divRow.classList.add();
-        divRow.setAttribute('class','row');
-        divContainer.appendChild(divRow);
         for (var i = 0; i < dataweb.length; i++){
+            if(i%3==0){
+            var divRow = document.createElement('div');
+            divRow.classList.add();
+            divRow.setAttribute('class','row');
+            divContainer.appendChild(divRow);}
             var divCol= document.createElement('div');
             divRow.appendChild(divCol);
             divCol.classList.add()
@@ -68,25 +69,10 @@ function createWeb() {
               }
             }
             
-            }
+          }
         
-        }
-    //     for (var j=0; j< dataweb.length; j++){
-    //       var x = dataweb[j].categories.length;
-    //       if(dataweb[j].categories != null){
-    //         var  categoriesul= document.getElementById('nhung');
-    //         var  categoriesli= document.createElement('li');
-    //         if(dataweb[j].categories[j].name != null){categoriesli.innerHTML =  dataweb[j].categories[j].name;
-    //           categoriesul.appendChild(categoriesli);
-    //         }
-      
-    //       else {
-    //         var  categoriesli= document.createElement('p');
-    //         categoriesul.appendChild(categoriesli);
-    //         categoriesli.innerHTML= "none";
-    //             }
-    //      }  
-    //   } 
+       }
+    
       else {
         console.log('du lieu chua ve dau' + nhung.readyState);
         }
